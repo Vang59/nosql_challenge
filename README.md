@@ -30,7 +30,7 @@ The magazine editors have some requested modifications for the database before y
 
  1. An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:
 
-```diff
+```json
 {
     "BusinessName":"Penang Flavours",
     "BusinessType":"Restaurant/Cafe/Canteen",
