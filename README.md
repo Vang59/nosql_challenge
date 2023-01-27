@@ -30,16 +30,7 @@ The magazine editors have some requested modifications for the database before y
 
  1. An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:
 
- <style>
-.gray-box{
-  background-color:gray; 
-  color:white; 
-  padding:10px;
-  border:1px solid black;
-}
-</style>
-
-<div class="gray-box">
+```diff
 {
     "BusinessName":"Penang Flavours",
     "BusinessType":"Restaurant/Cafe/Canteen",
@@ -68,17 +59,9 @@ The magazine editors have some requested modifications for the database before y
     "Distance":4623.9723280747176,
     "NewRatingPending":True
 }
-</div>
+```
 
-<style>
-.red-box{
-  background-color:gray; 
-  color:red; 
-  padding:2px;
-}
-</style>
-
- 2. Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the <span class="red-box">BusinessTypeID</span> and <span class="red-box">BusinessType</span> fields.
+ 2. Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the `BusinessTypeID` and `BusinessType` fields.
 
  3. Update the new restaurant with the `BusinessTypeID` you found.
 
